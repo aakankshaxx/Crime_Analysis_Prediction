@@ -63,8 +63,6 @@ Below are the summarized findings from both the numerical and categorical analys
 
 - The association between 'Crime Type' and 'Victim Sex' although weaker, was still statistically significant. This underscores the importance of even subtle factors in the analysis of crime data.
 
-![Spearman Correlation](plots/heatmap_Chi_square.png)
-
 ### Machine Learning models to predict if a crime is solved.
 
 In this project, I applied several machine learning models to predict the likelihood of a crime being solved. To avoid any racial and ethnical discrimination, I have omitted all columns that cause overfitting of the models, and I ended up with the following features - "Weapon", "Relationship", "Crime Solved", "Incident", "Crime Type", "Victim Count", "Perpetrator Count".
@@ -105,7 +103,7 @@ Each model was evaluated based on several metrics to assess its effectiveness in
 
 These metrics provided a comprehensive view of each model's performance, considering both the balance between classes and the cost of false positives versus false negatives.
 
-![All models](plots/all_models.png)
+![image](https://github.com/aakankshaxx/Crime_Analysis_Prediction/assets/104255388/1ab264b1-b4b2-49df-bd37-11c75c153bed)
 
 ## Findings
 
